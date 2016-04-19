@@ -1,1 +1,1 @@
-$('.promotions-section h1').css('color', 'red');
+$('body').css('backround', 'red');
