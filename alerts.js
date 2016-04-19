@@ -15,6 +15,6 @@ function pushAlert() {
   alert('Pragniemy poinformować, iż wysyłka zamówień na książkę Stan Futbolu ruszyła 18 kwietnia, jednak z uwagi na ilość zamówień, ich realizacja potrwa do kilku dni.');
 };
 
-if (window.location.host.match('decomade')) {
+if (window.location.host.match('weszlo')) {
   executeOnce(pushAlert, null, 'push_alert');
 }
