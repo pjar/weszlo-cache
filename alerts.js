@@ -11,6 +11,14 @@ function executeOnce () {
     return true;
 };
 
-//if (window.location.host.match('weszlo')) {
-//  executeOnce(pushAlert, null, 'push_alert');
-//}
+if (window.location.host.match('weszlo')) {
+  executeOnce(pushAlert, null, 'pushAlert');
+}
+
+if (window.location.host.match('decomade')) {
+  executeOnce(pushAlert, null, 'pushAlert');
+}
+
+function pushAlert () {
+  alert('2 maja magazyn nieczynny, wszystkie zamówienia złożone od 29 kwietnia będą zrealizowane od 4 maja.');
+}
